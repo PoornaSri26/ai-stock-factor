@@ -1,0 +1,38 @@
+# Universe for the AI-factor study. One ticker per line, US listings.
+# Committed on purpose: the universe is part of the experiment, and changing it
+# is a `data:` commit with a reason in the body.
+#
+# AI basket names (declared in PREREGISTRATION.md) are marked with a trailing
+# comment so the pre-declaration is visible in the data itself.
+NVDA      # gpu
+AMD       # gpu
+AVGO      # gpu
+MU        # gpu
+TSM       # foundry
+ASML      # foundry
+AMAT      # foundry
+LRCX      # foundry
+KLAC      # foundry
+MSFT      # hyperscaler
+GOOGL     # hyperscaler
+AMZN      # hyperscaler
+META      # hyperscaler
+VRT       # power_dc
+ETN       # power_dc
+CEG       # power_dc
+NEE       # power_dc
+SMCI      # power_dc
+ANET      # power_dc
+#
+# Diversification / control names — needed so the correlation matrix is not just
+# the AI complex. Extend to the full index with the point-in-time membership file.
+JPM
+XOM
+JNJ
+PG
+KO
+WMT
+CAT
+HON
+UNH
+V
